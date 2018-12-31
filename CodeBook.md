@@ -35,5 +35,13 @@ The Script run_analysis.R does the following:
 9) Aggregates the data set by groups (activity and subject) calculating mean value of all the observations
 10) Writes the file
 
-
+## Variables
+- test_bind: test data values, test subjects and activity IDs
+- train_bind: train data values, train subjects and activity IDs
+- total_bind: test data and train data in one data set
+- labelled_total: dataset where activity ID is merged with activity label
+- total_mean: Vector which has number of columns having mean() values
+- total_std: Vector which has number of columns having std() values
+- tidy_set: Data set that only has subject, activity label and mean()/std() data
+- final_set: Aggregated data set - the final result
   
